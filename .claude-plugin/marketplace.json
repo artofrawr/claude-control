@@ -1,8 +1,8 @@
 {
   "name": "claude-control",
-  "description": "Jens' private Claude Code plugin marketplace.",
+  "description": "Claude Code plugin marketplace",
   "owner": {
-    "name": "artofrawr"
+    "name": "Jens Fischer"
   },
   "plugins": [
     {

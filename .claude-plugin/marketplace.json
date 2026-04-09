@@ -30,6 +30,12 @@
       "tags": ["principles", "configuration"]
     },
     {
+      "name": "guardrails",
+      "source": "./plugins/guardrails",
+      "description": "Safety guardrails: destructive command warnings, directory freeze, and combined guard mode",
+      "tags": ["safety", "guardrails"]
+    },
+    {
       "name": "learning",
       "source": "./plugins/learning",
       "description": "Learning skills: tutorials, explanations, and knowledge building patterns",
@@ -50,8 +56,8 @@
     {
       "name": "meta-tooling",
       "source": "./plugins/meta-tooling",
-      "description": "Safety guardrails (destructive command warnings, directory freeze) and tooling for managing Claude Code plugins and workflows",
-      "tags": ["safety", "guardrails", "tooling"]
+      "description": "Tooling for managing Claude Code plugins, skills, and workflows",
+      "tags": ["tooling", "meta"]
     },
     {
       "name": "testing",

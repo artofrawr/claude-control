@@ -6,11 +6,11 @@ Claude Code plugin marketplace with opinionated skills and workflows
 
 ### Add the marketplace
 
-1. Run Claude Code
-2. Use the `/plugin` command, hit return
-3. Navigate using arrow keys to **Marketplaces**, "+ Add Marketplace" should be highlighted, hit return
-4. Paste in `artofrawr/claude-control`, hit return
-5. Should now see `x` plugins available to be installed
+In Claude Code, run:
+
+```
+/plugin marketplace add artofrawr/claude-control
+```
 
 ### Install a plugin
 
@@ -69,10 +69,11 @@ bash scripts/validate.sh
 - [design](plugins/design/README.md) - UI/UX patterns, design systems, and visual design workflows.
 - [development](plugins/development/README.md) - Technology skill library and development workflows.
 - [ethos](plugins/ethos/README.md) - Personal principles that persist across all projects and survive context compaction.
+- [guardrails](plugins/guardrails/README.md) - Safety guardrails: destructive command warnings, directory freeze, and combined guard mode.
 - [learning](plugins/learning/README.md) - Tutorials, explanations, and knowledge building patterns.
 - [marketing](plugins/marketing/README.md) - SEO, content strategy, analytics, and campaign optimization.
 - [media](plugins/media/README.md) - Image, audio, and video processing workflows.
-- [meta-tooling](plugins/meta-tooling/README.md) - Safety guardrails and tooling for managing Claude Code plugins.
+- [meta-tooling](plugins/meta-tooling/README.md) - Tooling for managing Claude Code plugins, skills, and workflows.
 - [testing](plugins/testing/README.md) - Test strategies, frameworks, and quality assurance patterns.
 - [workflows](plugins/workflows/README.md) - Reusable workflow patterns and process automation.
 - [writing](plugins/writing/README.md) - Copywriting, documentation, editing, and content creation.

@@ -4,22 +4,42 @@ Focused skills for modern React/TypeScript development. Provides library-specifi
 
 ## Skills
 
-### Library-Specific Skills
-
-| Skill | Triggers | Purpose |
-|-------|----------|---------|
-| **tanstack-table** | "create data table", "add sorting", "filter table", "@tanstack/react-table" | Data tables with sorting, filtering, pagination, virtualization |
-| **react-hook-form** | "create form", "form validation", "field arrays", "react-hook-form" | Performant forms with validation and field arrays |
-| **zod** | "create schema", "validate with zod", "z.infer", "parse data" | Schema validation, type inference, data transformation |
-| **tanstack-query** | "fetch data", "cache data", "optimistic updates", "@tanstack/react-query" | Server state management, caching, mutations |
-| **chakra-ui** | "create chakra component", "chakra theme", "add dark mode", "@chakra-ui/react" | Accessible components, theming, responsive design |
-| **convex** | "create convex function", "convex query", "convex mutation", "convex schema" | Real-time backend, serverless functions, document database |
-| **nestjs** | "create a controller", "add a guard", "create a nestjs module", "build a nest microservice" | Progressive Node.js framework with modules, guards, interceptors |
-| **nx-monorepo** | "create a library", "run nx affected", "manage a monorepo", "configure nx caching" | Workspace organization, library creation, build optimization |
-| **prisma** | "create a prisma schema", "run migrations", "write prisma queries", "handle transactions" | Type-safe ORM for database schema, migrations, data access |
-| **typesense** | "create a typesense collection", "build a search index", "implement faceted search" | Typo-tolerant search engine, indexing, faceted navigation |
-| **architecture-review** | "review architecture", "design patterns", "technical review" | Architecture assessment and pattern recommendations |
-| **sentry** | "add error tracking", "sentry setup", "capture exception", "performance monitoring" | Error tracking, performance monitoring, error boundaries |
+| Skill | Description |
+|-------|-------------|
+| **agentic-development** | Build AI agents with Pydantic AI (Python) and Claude SDK (Node.js) |
+| **architecture-review** | Architecture assessment, design patterns, and pattern analysis |
+| **base** | Universal coding patterns, constraints, TDD workflow, atomic todos |
+| **chakra-ui** | Accessible components, theming, and responsive design with @chakra-ui/react |
+| **code-deduplication** | Prevent semantic code duplication with capability index and check-before-write |
+| **convex** | Real-time backend, serverless functions, document database with Convex |
+| **credentials** | Centralized API key management from Access.txt |
+| **database-schema** | Schema awareness - read before coding, type generation, prevent column errors |
+| **llm-patterns** | AI-first application patterns, LLM testing, prompt management |
+| **ms-teams-apps** | Microsoft Teams bots and AI agents - Claude/OpenAI, Adaptive Cards, Graph API |
+| **nestjs** | Progressive Node.js framework with modules, guards, interceptors |
+| **nodejs-backend** | Node.js backend patterns with Express/Fastify, repositories |
+| **nx-monorepo** | Workspace organization, library creation, build optimization with Nx |
+| **prisma** | Type-safe ORM for database schema, migrations, and data access |
+| **project-tooling** | gh, vercel, supabase, render CLI and deployment platform setup |
+| **pwa-development** | Progressive Web Apps - service workers, caching strategies, offline, Workbox |
+| **python** | Python development with ruff, mypy, pytest - TDD and type safety |
+| **react-hook-form** | Performant forms with validation, field arrays, and Zod integration |
+| **react-native** | React Native mobile patterns, platform-specific code |
+| **react-web** | React web development with hooks, React Query, Zustand |
+| **reddit-api** | Reddit API with PRAW (Python) and Snoowrap (Node.js) |
+| **security** | OWASP security patterns, secrets management, security testing |
+| **sentry** | Error tracking, performance monitoring, and error boundaries |
+| **shopify-apps** | Shopify app development - Remix, Admin API, checkout extensions |
+| **supabase** | Core Supabase CLI, migrations, RLS, Edge Functions |
+| **supabase-nextjs** | Next.js with Supabase and Drizzle ORM |
+| **supabase-node** | Express/Hono with Supabase and Drizzle ORM |
+| **supabase-python** | FastAPI with Supabase and SQLAlchemy/SQLModel |
+| **tanstack-query** | Server state management, caching, mutations with @tanstack/react-query |
+| **tanstack-table** | Data tables with sorting, filtering, pagination, virtualization |
+| **typescript** | TypeScript strict mode with eslint and jest |
+| **typesense** | Typo-tolerant search engine, indexing, faceted navigation |
+| **web-payments** | Stripe Checkout, subscriptions, webhooks, customer portal |
+| **zod** | Schema validation, type inference, data transformation with Zod |
 
 ### How Skills Work
 

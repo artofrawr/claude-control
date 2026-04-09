@@ -6,4 +6,5 @@ Learning skills: tutorials, explanations, and knowledge building patterns.
 
 | Skill | Description |
 |-------|-------------|
-| *placeholder* | No skills added yet |
+| **ai-models** | Latest AI models reference - Claude, OpenAI, Gemini, Eleven Labs, Replicate |
+| **user-journeys** | User experience flows - journey mapping, UX validation, error recovery |

@@ -1,6 +1,6 @@
 # claude-control
 
-Jens' Claude Code Marketplace.
+Claude Code Marketplace
 
 ## How to use
 

@@ -1,6 +1,6 @@
 # claude-control
 
-Jens' private Claude Code plugin marketplace.
+Private Claude Code plugin marketplace.
 
 ## Repository Structure
 
@@ -40,7 +40,6 @@ claude-control/
 │       └── create-plugin.md    # Slash command to scaffold new plugins
 ├── .gitignore                  # Standard ignores (OS files, editor files)
 ├── CLAUDE.md                   # This file — project conventions
-├── CONTRIBUTING.md             # Contributor guide
 └── README.md                   # Marketplace docs with Available Plugins section
 ```
 
@@ -60,13 +59,17 @@ claude-control/
 ## Component Conventions
 
 ### Skills (required)
+
 Every plugin must have at least one skill under `skills/<skill-name>/SKILL.md`. Skills are the primary component type. If a skill needs bundled scripts or reference files, place them in subdirectories under the skill folder and reference them using `${CLAUDE_PLUGIN_ROOT}` (e.g., `${CLAUDE_PLUGIN_ROOT}/skills/my-skill/scripts/run.sh`).
 
 ### Commands (optional)
+
 Slash commands live under `commands/<command-name>.md`. Each file must have frontmatter with `name` and `description` fields, followed by imperative instructions.
 
 ### Agents (optional)
+
 Autonomous agents live under `agents/<agent-name>.md`. Each file must have frontmatter with:
+
 - `name`: kebab-case agent name
 - `description`: what the agent does and when to use it
 - `model`: one of `inherit`, `sonnet`, `opus`, `haiku`
@@ -76,6 +79,7 @@ Autonomous agents live under `agents/<agent-name>.md`. Each file must have front
 The body is the agent's system prompt.
 
 ### Hooks (optional)
+
 Event hooks live under `hooks/hooks.json`. The file must contain a top-level `hooks` object where each key is an event type (`PreToolUse`, `PostToolUse`, `Stop`, `SessionStart`, `SessionEnd`) mapping to an array of hook entries. Command-type hooks should reference scripts via `${CLAUDE_PLUGIN_ROOT}` (e.g., `${CLAUDE_PLUGIN_ROOT}/hooks/scripts/my-hook.sh`).
 
 ## Root README Convention

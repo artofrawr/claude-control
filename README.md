@@ -39,22 +39,6 @@ In Claude Code, run:
 
 > May need to use `/reload-plugins` for all updates to take effect.
 
-### Create a new plugin
-
-1. Run Claude Code from the claude-control repo
-2. Use the `/create-plugin` slash command with a name and description:
-   ```
-   /create-plugin my-plugin A short description of what it does
-   ```
-3. Claude will scaffold all required files (`plugin.json`, `SKILL.md`, `README.md`), update the marketplace registry, and update this README
-4. Commit, push, and run `/reload-plugins` to test
-
-You can also run `/create-plugin` with no arguments for an interactive walkthrough that supports scaffolding commands, agents, and hooks in addition to skills.
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to create plugins, validate your work, and submit PRs.
-
 ## Validation
 
 Run the validation script to check all plugins for correct structure and metadata:

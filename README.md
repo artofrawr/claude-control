@@ -1,6 +1,6 @@
 # claude-control
 
-Claude Code Marketplace
+Claude Code plugin marketplace with opinionated skills and workflows
 
 ## How to use
 

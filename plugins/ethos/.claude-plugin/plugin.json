@@ -1,0 +1,9 @@
+{
+  "name": "ethos",
+  "description": "Personal principles that persist across all projects and survive context compaction",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

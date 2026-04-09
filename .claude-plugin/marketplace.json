@@ -1,0 +1,33 @@
+{
+  "name": "claude-control",
+  "description": "Jens' private Claude Code plugin marketplace.",
+  "owner": {
+    "name": "artofrawr"
+  },
+  "plugins": [
+    {
+      "name": "core-development",
+      "source": "./plugins/core-development",
+      "description": "Technology skill library and development workflows: 12 focused skills (Convex, NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more) with commands for planning, debugging, code review, scaffolding, and coordination",
+      "tags": ["development", "skills", "workflows"]
+    },
+    {
+      "name": "ethos",
+      "source": "./plugins/ethos",
+      "description": "Personal principles that persist across all projects and survive context compaction",
+      "tags": ["principles", "configuration"]
+    },
+    {
+      "name": "guardrails",
+      "source": "./plugins/guardrails",
+      "description": "Safety guardrails: destructive command warnings, directory freeze, and combined guard mode",
+      "tags": ["safety", "guardrails"]
+    },
+    {
+      "name": "hello-world",
+      "source": "./plugins/hello-world",
+      "description": "A simple test plugin that greets the user. Use this to verify your marketplace installation is working.",
+      "tags": ["example", "testing"]
+    }
+  ]
+}

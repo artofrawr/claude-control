@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "Marketplace Registry",
+  "description": "Schema for .claude-plugin/marketplace.json.",
+  "type": "object",
+  "required": ["name", "description", "owner", "plugins"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Marketplace name."
+    },
+    "description": {
+      "type": "string",
+      "description": "Marketplace description."
+    },
+    "owner": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "source", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Plugin name, must match the plugin directory name."
+          },
+          "source": {
+            "type": "string",
+            "description": "Relative path to the plugin directory."
+          },
+          "description": {
+            "type": "string",
+            "description": "One-line description of the plugin."
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*$"
+            },
+            "description": "Optional list of lowercase tags for categorization."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

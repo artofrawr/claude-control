@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Pre-commit hook: runs plugin validation before allowing a commit.
+
+echo "Running plugin validation..."
+bash "$(git rev-parse --show-toplevel)/scripts/validate.sh"

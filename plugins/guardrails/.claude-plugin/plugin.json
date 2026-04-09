@@ -1,0 +1,9 @@
+{
+  "name": "guardrails",
+  "description": "Safety guardrails: destructive command warnings, directory freeze, and combined guard mode",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

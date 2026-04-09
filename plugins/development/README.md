@@ -6,19 +6,34 @@ Focused skills for modern React/TypeScript development. Provides library-specifi
 
 | Skill | Description |
 |-------|-------------|
+| **accessibility** | Run comprehensive accessibility audits on web projects using axe-core and eslint-plugin-jsx-a11y |
 | **agentic-development** | Build AI agents with Pydantic AI (Python) and Claude SDK (Node.js) |
-| **architecture-review** | Architecture assessment, design patterns, and pattern analysis |
+| **architecture-review** | Systematic architecture review methodology and pattern analysis |
+| **audit-website** | Audit websites for SEO, performance, security, and 15 other categories with 230+ rules using squirrelscan CLI |
+| **aws-cdk** | AWS Cloud Development Kit (CDK) for building cloud infrastructure with TypeScript/Python |
 | **base** | Universal coding patterns, constraints, TDD workflow, atomic todos |
+| **better-auth** | Configure Better Auth server and client, set up database adapters, manage sessions, add plugins |
 | **chakra-ui** | Accessible components, theming, and responsive design with @chakra-ui/react |
+| **clickhouse** | ClickHouse schema, query, and configuration review with 28 production rules |
+| **cloudflare-workers** | Review and author Cloudflare Workers code against production best practices |
 | **code-deduplication** | Prevent semantic code duplication with capability index and check-before-write |
 | **convex** | Real-time backend, serverless functions, document database with Convex |
 | **credentials** | Centralized API key management from Access.txt |
+| **d3js** | Creating interactive data visualizations using d3.js - custom charts, graphs, network diagrams, geographic visualizations |
 | **database-schema** | Schema awareness - read before coding, type generation, prevent column errors |
+| **dockerfile** | Create, generate, and write Dockerfiles and multi-stage Docker images |
+| **firecrawl** | Web scraping, search, crawling, and page interaction via the Firecrawl CLI |
+| **git-worktrees** | Create isolated git worktrees with smart directory selection and safety verification |
+| **i18n** | Guides better-i18n integration decisions - SDK selection, CDN vs GitHub workflow, AI-powered translation management |
 | **llm-patterns** | AI-first application patterns, LLM testing, prompt management |
+| **mcp-builder** | Guide for creating high-quality MCP servers that enable LLMs to interact with external services |
 | **ms-teams-apps** | Microsoft Teams bots and AI agents - Claude/OpenAI, Adaptive Cards, Graph API |
+| **neon-postgres** | Guides and best practices for working with Neon Serverless Postgres |
 | **nestjs** | Progressive Node.js framework with modules, guards, interceptors |
+| **nextjs** | Next.js best practices - file conventions, RSC boundaries, data patterns, metadata, error handling |
 | **nodejs-backend** | Node.js backend patterns with Express/Fastify, repositories |
 | **nx-monorepo** | Workspace organization, library creation, build optimization with Nx |
+| **postgres** | Execute read-only SQL queries against multiple PostgreSQL databases for exploration and analysis |
 | **prisma** | Type-safe ORM for database schema, migrations, and data access |
 | **project-tooling** | gh, vercel, supabase, render CLI and deployment platform setup |
 | **pwa-development** | Progressive Web Apps - service workers, caching strategies, offline, Workbox |
@@ -27,17 +42,23 @@ Focused skills for modern React/TypeScript development. Provides library-specifi
 | **react-native** | React Native mobile patterns, platform-specific code |
 | **react-web** | React web development with hooks, React Query, Zustand |
 | **reddit-api** | Reddit API with PRAW (Python) and Snoowrap (Node.js) |
+| **remotion** | Best practices for Remotion - video creation in React |
+| **sanity** | Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, and framework integrations |
 | **security** | OWASP security patterns, secrets management, security testing |
 | **sentry** | Error tracking, performance monitoring, and error boundaries |
 | **shopify-apps** | Shopify app development - Remix, Admin API, checkout extensions |
+| **subagent-development** | Use when executing implementation plans with independent tasks in the current session |
 | **supabase** | Core Supabase CLI, migrations, RLS, Edge Functions |
 | **supabase-nextjs** | Next.js with Supabase and Drizzle ORM |
 | **supabase-node** | Express/Hono with Supabase and Drizzle ORM |
 | **supabase-python** | FastAPI with Supabase and SQLAlchemy/SQLModel |
 | **tanstack-query** | Server state management, caching, mutations with @tanstack/react-query |
 | **tanstack-table** | Data tables with sorting, filtering, pagination, virtualization |
+| **tinybird** | Tinybird file formats, SQL rules, optimization patterns for datasources, pipes, endpoints, and materialized views |
 | **typescript** | TypeScript strict mode with eslint and jest |
 | **typesense** | Typo-tolerant search engine, indexing, faceted navigation |
+| **web-artifacts-builder** | Create elaborate, multi-component claude.ai HTML artifacts using React, Tailwind CSS, shadcn/ui |
+| **web-asset-generator** | Generate web assets including favicons, app icons (PWA), and social media meta images |
 | **web-payments** | Stripe Checkout, subscriptions, webhooks, customer portal |
 | **zod** | Schema validation, type inference, data transformation with Zod |
 

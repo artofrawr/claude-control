@@ -6,9 +6,21 @@
   },
   "plugins": [
     {
-      "name": "core-development",
-      "source": "./plugins/core-development",
-      "description": "Technology skill library and development workflows: 12 focused skills (Convex, NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more) with commands for planning, debugging, code review, scaffolding, and coordination",
+      "name": "automation",
+      "source": "./plugins/automation",
+      "description": "Automation skills: task automation, scripting, and integration patterns",
+      "tags": ["automation", "scripting"]
+    },
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Design skills: UI/UX patterns, design systems, and visual design workflows",
+      "tags": ["design", "ui", "ux"]
+    },
+    {
+      "name": "development",
+      "source": "./plugins/development",
+      "description": "Technology skill library and development workflows: focused skills for Convex, NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more",
       "tags": ["development", "skills", "workflows"]
     },
     {
@@ -18,16 +30,46 @@
       "tags": ["principles", "configuration"]
     },
     {
-      "name": "guardrails",
-      "source": "./plugins/guardrails",
-      "description": "Safety guardrails: destructive command warnings, directory freeze, and combined guard mode",
-      "tags": ["safety", "guardrails"]
+      "name": "learning",
+      "source": "./plugins/learning",
+      "description": "Learning skills: tutorials, explanations, and knowledge building patterns",
+      "tags": ["learning", "education"]
     },
     {
-      "name": "hello-world",
-      "source": "./plugins/hello-world",
-      "description": "A simple test plugin that greets the user. Use this to verify your marketplace installation is working.",
-      "tags": ["example", "testing"]
+      "name": "marketing",
+      "source": "./plugins/marketing",
+      "description": "Marketing skills: SEO, content strategy, analytics, and campaign optimization",
+      "tags": ["marketing", "seo", "analytics"]
+    },
+    {
+      "name": "media",
+      "source": "./plugins/media",
+      "description": "Media skills: image, audio, and video processing workflows",
+      "tags": ["media", "image", "audio", "video"]
+    },
+    {
+      "name": "meta-tooling",
+      "source": "./plugins/meta-tooling",
+      "description": "Safety guardrails (destructive command warnings, directory freeze) and tooling for managing Claude Code plugins and workflows",
+      "tags": ["safety", "guardrails", "tooling"]
+    },
+    {
+      "name": "testing",
+      "source": "./plugins/testing",
+      "description": "Testing skills: test strategies, frameworks, and quality assurance patterns",
+      "tags": ["testing", "qa"]
+    },
+    {
+      "name": "workflows",
+      "source": "./plugins/workflows",
+      "description": "Reusable workflow patterns and process automation skills",
+      "tags": ["workflows", "processes"]
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "description": "Writing skills: copywriting, documentation, editing, and content creation",
+      "tags": ["writing", "content"]
     }
   ]
 }

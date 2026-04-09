@@ -1,0 +1,9 @@
+{
+  "name": "design",
+  "description": "Design skills: UI/UX patterns, design systems, and visual design workflows",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

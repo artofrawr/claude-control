@@ -1,0 +1,9 @@
+{
+  "name": "testing",
+  "description": "Testing skills: test strategies, frameworks, and quality assurance patterns",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

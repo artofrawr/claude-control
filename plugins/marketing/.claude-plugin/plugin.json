@@ -1,0 +1,9 @@
+{
+  "name": "marketing",
+  "description": "Marketing skills: SEO, content strategy, analytics, and campaign optimization",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

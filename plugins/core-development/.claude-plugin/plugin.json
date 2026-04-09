@@ -1,9 +1,0 @@
-{
-  "name": "core-development",
-  "description": "Technology skill library and development workflows: 12 focused skills (Convex, NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more) with commands for planning, debugging, code review, scaffolding, and coordination",
-  "version": "1.2.0",
-  "author": {
-    "name": "Jon Black"
-  },
-  "license": "MIT"
-}

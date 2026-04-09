@@ -1,0 +1,9 @@
+{
+  "name": "workflows",
+  "description": "Reusable workflow patterns and process automation skills",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

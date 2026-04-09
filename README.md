@@ -65,7 +65,14 @@ bash scripts/validate.sh
 
 ## Available Plugins
 
-- [core-development](plugins/core-development/README.md) - Technology skill library and development workflows.
+- [automation](plugins/automation/README.md) - Task automation, scripting, and integration patterns.
+- [design](plugins/design/README.md) - UI/UX patterns, design systems, and visual design workflows.
+- [development](plugins/development/README.md) - Technology skill library and development workflows.
 - [ethos](plugins/ethos/README.md) - Personal principles that persist across all projects and survive context compaction.
-- [guardrails](plugins/guardrails/README.md) - Safety guardrails: destructive command warnings, directory freeze, and combined guard mode.
-- [hello-world](plugins/hello-world/README.md) - A simple test plugin that greets the user.
+- [learning](plugins/learning/README.md) - Tutorials, explanations, and knowledge building patterns.
+- [marketing](plugins/marketing/README.md) - SEO, content strategy, analytics, and campaign optimization.
+- [media](plugins/media/README.md) - Image, audio, and video processing workflows.
+- [meta-tooling](plugins/meta-tooling/README.md) - Safety guardrails and tooling for managing Claude Code plugins.
+- [testing](plugins/testing/README.md) - Test strategies, frameworks, and quality assurance patterns.
+- [workflows](plugins/workflows/README.md) - Reusable workflow patterns and process automation.
+- [writing](plugins/writing/README.md) - Copywriting, documentation, editing, and content creation.

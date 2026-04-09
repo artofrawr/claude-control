@@ -1,0 +1,9 @@
+{
+  "name": "learning",
+  "description": "Learning skills: tutorials, explanations, and knowledge building patterns",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jon Black"
+  },
+  "license": "MIT"
+}

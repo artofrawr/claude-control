@@ -49,7 +49,6 @@ bash scripts/validate.sh
 
 ## Available Plugins
 
-- [automation](plugins/automation/README.md) - Task automation, scripting, and integration patterns.
 - [design](plugins/design/README.md) - UI/UX patterns, design systems, and visual design workflows.
 - [development](plugins/development/README.md) - Technology skill library and development workflows.
 - [ethos](plugins/ethos/README.md) - Personal principles that persist across all projects and survive context compaction.

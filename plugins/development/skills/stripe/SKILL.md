@@ -1,5 +1,5 @@
 ---
-name: web-payments
+name: stripe
 description: Stripe Checkout, subscriptions, webhooks, customer portal
 disable-model-invocation: false
 ---

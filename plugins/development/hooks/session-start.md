@@ -8,22 +8,18 @@ Inspect the current project to identify which core-development skills are releva
 
 ## Detection Checks
 
-1. **Check for `convex/` directory**
-   - If found: Note that Convex patterns are available via the `convex` skill
-   - Check `convex/schema.ts` for schema complexity
-
-2. **Check for `nx.json`**
+1. **Check for `nx.json`**
    - If found: Note that Nx workspace management is available via the `nx-monorepo` skill
    - Check workspace structure for library organization
 
-3. **Check for `prisma/schema.prisma`**
+2. **Check for `prisma/schema.prisma`**
    - If found: Note that Prisma patterns are available via the `prisma` skill
 
-4. **Check `package.json` for `@sentry/*` dependencies**
+3. **Check `package.json` for `@sentry/*` dependencies**
    - If found: Remind that new features should include Sentry instrumentation (error boundaries, breadcrumbs)
    - If not found but project is production-facing: Suggest considering Sentry for observability
 
-5. **Check `tsconfig.json` for strict mode**
+4. **Check `tsconfig.json` for strict mode**
    - If `strict` is not `true`: Warn that strict mode is not enabled, which may affect type safety guidance from skills
 
 ## Output Format

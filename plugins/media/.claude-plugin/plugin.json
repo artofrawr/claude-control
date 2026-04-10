@@ -1,9 +1,5 @@
 {
   "name": "media",
   "description": "Media skills: image, audio, and video processing workflows",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jon Black"
-  },
-  "license": "MIT"
+  "version": "1.0.0"
 }

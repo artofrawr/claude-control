@@ -5,13 +5,7 @@
     "name": "Jens Fischer"
   },
   "plugins": [
-    {
-      "name": "automation",
-      "source": "./plugins/automation",
-      "description": "Automation skills: task automation, scripting, and integration patterns",
-      "tags": ["automation", "scripting"]
-    },
-    {
+{
       "name": "design",
       "source": "./plugins/design",
       "description": "Design skills: UI/UX patterns, design systems, and visual design workflows",

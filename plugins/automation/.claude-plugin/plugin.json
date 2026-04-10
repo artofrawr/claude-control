@@ -1,9 +1,0 @@
-{
-  "name": "automation",
-  "description": "Automation skills: task automation, scripting, and integration patterns",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jon Black"
-  },
-  "license": "MIT"
-}

@@ -1,9 +1,5 @@
 {
   "name": "writing",
   "description": "Writing skills: copywriting, documentation, editing, and content creation",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jon Black"
-  },
-  "license": "MIT"
+  "version": "1.0.0"
 }

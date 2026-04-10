@@ -1,9 +1,5 @@
 {
   "name": "meta-tooling",
   "description": "Tooling for managing Claude Code plugins, skills, and workflows",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jon Black"
-  },
-  "license": "MIT"
+  "version": "1.0.0"
 }

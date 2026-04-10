@@ -2,6 +2,8 @@
 
 Reusable workflow patterns and process automation skills.
 
+**Version:** 1.0.0
+
 ## Skills
 
 | Skill | Description |
@@ -17,3 +19,7 @@ Reusable workflow patterns and process automation skills.
 | **product-manager** | PM skill - diagnoses SaaS metrics, critiques PRDs, plans roadmaps, runs discovery, coaches PM career transitions |
 | **session-management** | Context preservation, tiered summarization, resumability |
 | **team-coordination** | Multi-person projects - shared state, todo claiming, handoffs |
+
+## Usage
+
+Skills are loaded automatically when Claude detects workflow-related context. Use code-review before commits, commit-hygiene for PR discipline, iterative-development for TDD loops, or team-coordination for multi-person projects.

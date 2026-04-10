@@ -2,6 +2,14 @@
 
 Safety guardrails for Claude Code sessions: destructive command warnings and directory freeze.
 
+**Version:** 1.0.0
+
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| **guardrails** | Safety guardrails overview — explains available guard modes and how to activate them |
+
 ## Commands
 
 | Command | Description |

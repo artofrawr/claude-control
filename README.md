@@ -49,14 +49,14 @@ bash scripts/validate.sh
 
 ## Available Plugins
 
-- [design](plugins/design/README.md) - UI/UX patterns, design systems, and visual design workflows.
-- [development](plugins/development/README.md) - Technology skill library and development workflows.
+- [design](plugins/design/README.md) - Design skills: UI/UX patterns, design systems, and visual design workflows.
+- [development](plugins/development/README.md) - Technology skill library and development workflows: focused skills for NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more.
 - [ethos](plugins/ethos/README.md) - Personal principles that persist across all projects and survive context compaction.
 - [guardrails](plugins/guardrails/README.md) - Safety guardrails: destructive command warnings, directory freeze, and combined guard mode.
-- [learning](plugins/learning/README.md) - Tutorials, explanations, and knowledge building patterns.
-- [marketing](plugins/marketing/README.md) - SEO, content strategy, analytics, and campaign optimization.
-- [media](plugins/media/README.md) - Image, audio, and video processing workflows.
+- [learning](plugins/learning/README.md) - Learning skills: tutorials, explanations, and knowledge building patterns.
+- [marketing](plugins/marketing/README.md) - Marketing skills: SEO, content strategy, analytics, and campaign optimization.
+- [media](plugins/media/README.md) - Media skills: image, audio, and video processing workflows.
 - [meta-tooling](plugins/meta-tooling/README.md) - Tooling for managing Claude Code plugins, skills, and workflows.
-- [testing](plugins/testing/README.md) - Test strategies, frameworks, and quality assurance patterns.
-- [workflows](plugins/workflows/README.md) - Reusable workflow patterns and process automation.
-- [writing](plugins/writing/README.md) - Copywriting, documentation, editing, and content creation.
+- [testing](plugins/testing/README.md) - Testing skills: test strategies, frameworks, and quality assurance patterns.
+- [workflows](plugins/workflows/README.md) - Reusable workflow patterns and process automation skills.
+- [writing](plugins/writing/README.md) - Writing skills: copywriting, documentation, editing, and content creation.

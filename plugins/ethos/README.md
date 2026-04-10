@@ -2,6 +2,14 @@
 
 Personal principles that persist across all projects and survive context compaction.
 
+**Version:** 1.0.0
+
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| **principles** | Default personal principles template — replace with your own via ethos.local.md |
+
 ## How It Works
 
 The ethos plugin injects your personal principles into every Claude Code session via two hooks:

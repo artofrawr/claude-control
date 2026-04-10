@@ -301,6 +301,46 @@ print('\n'.join(issues))
   if ! echo "$marketplace_names" | grep -qx "$dir_name"; then
     err "Plugin '$dir_name': no corresponding entry in marketplace.json"
   fi
+
+  # --- Cross-check README skill table against actual skill directories ---
+  readme_file="$plugin_dir/README.md"
+  if [[ -f "$readme_file" ]]; then
+    # Extract skill names from README table (bold entries like | **name** |)
+    readme_skills=$(python3 -c "
+import re, sys
+with open(sys.argv[1]) as f:
+    content = f.read()
+for m in re.finditer(r'\|\s*\*\*([a-z0-9-]+)\*\*\s*\|', content):
+    print(m.group(1))
+" "$readme_file" | sort)
+
+    # Get actual skill directory names
+    actual_skills=""
+    for sd in "$plugin_dir"/skills/*/; do
+      [[ -d "$sd" ]] || continue
+      sname=$(basename "$sd")
+      if [[ -f "$sd/SKILL.md" ]]; then
+        actual_skills="$actual_skills$sname"$'\n'
+      fi
+    done
+    actual_skills=$(echo "$actual_skills" | sort | sed '/^$/d')
+
+    # Find skills in README but not on disk (ghost skills)
+    while IFS= read -r rs; do
+      [[ -z "$rs" ]] && continue
+      if ! echo "$actual_skills" | grep -qx "$rs"; then
+        err "Plugin '$dir_name': README lists skill '$rs' but no skills/$rs/SKILL.md exists"
+      fi
+    done <<< "$readme_skills"
+
+    # Find skills on disk but not in README (missing from docs)
+    while IFS= read -r as; do
+      [[ -z "$as" ]] && continue
+      if ! echo "$readme_skills" | grep -qx "$as"; then
+        err "Plugin '$dir_name': skill '$as' exists on disk but is not listed in README.md"
+      fi
+    done <<< "$actual_skills"
+  fi
 done
 
 # --- Check marketplace entries point to existing plugin dirs ---

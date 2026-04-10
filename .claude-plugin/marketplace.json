@@ -14,7 +14,7 @@
     {
       "name": "development",
       "source": "./plugins/development",
-      "description": "Technology skill library and development workflows: focused skills for Convex, NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more",
+      "description": "Technology skill library and development workflows: focused skills for NestJS, Prisma, Zod, Chakra UI, Sentry, TanStack, Typesense, and more",
       "tags": ["development", "skills", "workflows"]
     },
     {

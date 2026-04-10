@@ -2,6 +2,8 @@
 
 Learning skills: tutorials, explanations, and knowledge building patterns.
 
+**Version:** 1.0.0
+
 ## Skills
 
 | Skill | Description |
@@ -17,3 +19,7 @@ Learning skills: tutorials, explanations, and knowledge building patterns.
 | **think-deeply** | Engages structured analysis to explore multiple perspectives and context dependencies before responding |
 | **tracing-knowledge-lineages** | Understand how ideas evolved over time to find old solutions for new problems |
 | **user-journeys** | User experience flows - journey mapping, UX validation, error recovery |
+
+## Usage
+
+Skills are loaded automatically based on context. Use thinking frameworks (inversion, scale-game, collision-zone) when exploring ideas, brainstorming when starting creative work, or ai-models when selecting models for a project.

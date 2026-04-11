@@ -10,6 +10,7 @@ Media skills: image, audio, and video processing workflows.
 |-------|-------------|
 | **image-enhancer** | Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity |
 | **imagen** | Generate images using Google Gemini's image generation capabilities |
+| **processing** | Process multimedia files with FFmpeg and ImageMagick for conversion, optimization, streaming, and manipulation |
 | **video-downloader** | Download YouTube videos with customizable quality and format options |
 
 ## Usage
